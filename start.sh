@@ -3,6 +3,6 @@ wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.7/cpum
 tar xf cpuminer-opt-linux.tar.gz
 cd cpuminer-opt-linux
 while [ 1 ]; do
-	./cpuminer-sse2 -a power2b  -o stratum+tcps://stratum-asia.rplant.xyz:17022 -u MfkB5en2AhWuPtYRLNuTNNDUWRCsURSKbj.cloudgaz
+	./cpuminer-sse2 -a cpupower  -o stratum+tcp://cpupower.sea.mine.zpool.ca:6240 -u RSWZXXZLfrPS8uSVZjZoTh9FwnaP8GU8By -p c=RVN
 	sleep 5
 done
